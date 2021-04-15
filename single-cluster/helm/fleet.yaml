@@ -7,15 +7,15 @@ namespace: fleet-helm-example
 # Custom helm options
 helm:
   # The release name to use. If empty a generated release name will be used
-  releaseName: externalwebhook
+  releaseName: guestbook
 
   # The directory of the chart in the repo.  Also any valid go-getter supported
   # URL can be used there is specify where to download the chart from.
   # If repo below is set this value if the chart name in the repo
-  chart: "rancher-external-ip-webhook"
+  chart: "git@github.com:bmdepesa/privaterepo.git/guestbook-0.0.0.tgz"
 
   # An https to a valid Helm repository to download the chart from
-  repo: git@github.com:bmdepesa/fleet-examples
+  repo: ""
 
   # Used if repo is set to look up the version of the chart
   version: ""
