@@ -15,7 +15,7 @@ helm:
   chart: "rancher-external-ip-webhook"
 
   # An https to a valid Helm repository to download the chart from
-  repo: bmdepesa@github.com:bmdepesa/fleet-examples.git
+  repo: git@github.com:bmdepesa/fleet-examples
 
   # Used if repo is set to look up the version of the chart
   version: ""
