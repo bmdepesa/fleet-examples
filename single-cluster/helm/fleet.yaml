@@ -15,7 +15,7 @@ helm:
   chart: "guestbook"
 
   # An https to a valid Helm repository to download the chart from
-  repo: "https://54.202.212.133.xip.io"
+  repo: "https://18.190.157.9.xip.io/"
 
   # Used if repo is set to look up the version of the chart
   version: ""
