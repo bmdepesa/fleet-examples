@@ -9,7 +9,7 @@ helm:
   values:
     name: name-{{ .ClusterName }}
     namespace: |
-        {{ .ClusterNamespace }}{{ uuidv4 }}
+        {{ .ClusterNamespace }}-ns
     labels: |
       {{- .ClusterLabels | toJson }}
     clusterValues: |
